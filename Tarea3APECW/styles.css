@@ -1,0 +1,59 @@
+/* Definimos el estilo global para la página */
+body {
+    font-family: Arial, sans-serif; /* Fuente principal */
+    background-color: #f4f4f4; /* Color de fondo */
+    margin: 0; /* Eliminar los márgenes predeterminados */
+    padding: 0; /* Eliminar el relleno predeterminado */
+    display: flex; /* Usamos flexbox para centrar el contenido */
+    justify-content: center; /* Centramos horizontalmente */
+    align-items: center; /* Centramos verticalmente */
+    height: 100vh; /* La altura de la página ocupa toda la ventana */
+}
+
+/* Estilo del contenedor del formulario */
+.container {
+    background-color: white; /* Fondo blanco */
+    padding: 20px; /* Relleno interior */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra alrededor del contenedor */
+    width: 300px; /* Ancho del formulario */
+}
+
+/* Estilo del título del formulario */
+h2 {
+    text-align: center; /* Centrar el título */
+}
+
+/* Estilo general del formulario */
+form {
+    display: flex;
+    flex-direction: column; /* Alinea los campos del formulario en una columna */
+}
+
+/* Estilo para las etiquetas */
+label {
+    margin-bottom: 5px; /* Espacio entre la etiqueta y el campo */
+}
+
+/* Estilo para los campos de entrada */
+input {
+    margin-bottom: 10px; /* Espacio debajo de cada campo */
+    padding: 8px; /* Relleno interior de los campos */
+    border: 1px solid #ccc; /* Borde del campo */
+    border-radius: 5px; /* Bordes redondeados de los campos */
+}
+
+/* Estilo para el botón */
+button {
+    padding: 10px; /* Relleno interior del botón */
+    background-color: #28a745; /* Color de fondo verde */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor tipo "mano" */
+}
+
+/* Cambiar el color del botón al pasar el ratón */
+button:hover {
+    background-color: #218838; /* Color de fondo más oscuro */
+}
